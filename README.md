@@ -31,13 +31,13 @@ There are 3 branches:
 
 ### Infra
 
-- Every time a PR is created, a **terraform plan** will be executed. In addition to being shown in the **Actions** section, it will be shown as a comment in the PR to make it easier to see the changes made and thus maintain a log of changes in each PR.
+- Every time a PR is created in **develop-infra**, a **terraform plan** will be executed. In addition to being shown in the **Actions** section, it will be shown as a comment in the PR to make it easier to see the changes made and thus maintain a log of changes in each PR.
 
-- Every time the changes are merged, a **terraform apply** will be executed.
+- Every time the changes are merged in **develop-infra**, a **terraform apply** will be executed.
 
 ### HELM code
 
-- Every time a PR is created with some change, the CI/CD executes the change in the cluster (codimd-cluster) already created.
+- Every time a PR is created in **develop-helmcode**, the CI/CD executes the change in the cluster (codimd-cluster) already created.
 
 ## How to access
 
