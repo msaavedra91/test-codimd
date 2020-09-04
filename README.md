@@ -19,13 +19,13 @@ There are 3 branches:
 - Create a new branch and write your changes
 - Create a PR to **develop-infra**
 - Merge
-- Once satisfied with the changes (and already deployed through the CI/CD), create a PR to **master** and merge to unify the changes
+- Once satisfied with the changes (and already deployed through the CI/CD), create a PR to master and merge to unify the changes
 
 ### To deploy HELM code
 - Create a new branch and write your changes
 - Create a PR to **develop-helmcode**
 - Merge
-- Once satisfied with the changes (and already deployed through the CI/CD), create a PR to **master** and merge to unify the changes
+- Once satisfied with the changes (and already deployed through the CI/CD), create a PR to master and merge to unify the changes
 
 **NOTE:** It is important to keep the develop-infra and develop-helmcode branches updated with respect to the master in order to avoid conflicts.
 
