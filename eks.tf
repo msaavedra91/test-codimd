@@ -9,6 +9,7 @@ resource "aws_eks_cluster" "aws_eks" {
 
   tags = {
     Name = "CodiMD_cluster"
+    Location = "us-east-1"
   }
 }
 
