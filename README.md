@@ -19,16 +19,15 @@ There are 3 branches:
 - Create a new branch and write your changes
 - Create a PR to **develop-infra**
 - Merge
-- To save time (and automate more the flow), once the merge is applied to **develop-infra**, it will automatically execute an action on the CI/CD that creates a PR to **master**, this way the **master** branch is kept updated with all changes
+- Once satisfied with the changes (and already deployed through the CI/CD), create a PR to **master** and merge to unify the changes
 
 ### To deploy HELM code
 - Create a new branch and write your changes
 - Create a PR to **develop-helmcode**
 - Merge
-- To save time (and automate more the flow), once the merge is applied to **develop-helmcode**, it will automatically execute an action on the CI/CD that creates a PR to **master**, this way the **master** branch is kept updated with all changes
+- Once satisfied with the changes (and already deployed through the CI/CD), create a PR to **master** and merge to unify the changes
 
-
-**NOTE:** Once the merge to **master** is done, it will automatically execute an action that will create a PR from **master** to **develop-infra** and **develop-helmcode** in order to keep all branches updated at all times.
+**NOTE:** It is important to keep the develop-infra and develop-helmcode branches updated with respect to the master in order to avoid conflicts.
 
 ## How does the CI/CD work
 
