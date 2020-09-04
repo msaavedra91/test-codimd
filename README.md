@@ -30,6 +30,8 @@ There are 3 branches:
 
 **NOTE:** Once the merge to **master** is done, it will automatically execute an action that will create a PR from **master** to **develop-infra** and **develop-helmcode** in order to keep all branches updated at all times.
 
+**NOTE:** It is important to keep the develop-infra and develop-helmcode branches updated with respect to the master in order to avoid conflicts.
+
 ## How does the CI/CD work
 
 ### Infra
